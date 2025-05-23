@@ -1,5 +1,7 @@
 # Solar-Panel-tracking-system
 
+**Link for project**: https://drive.google.com/drive/folders/1yAlyLyDzA_AupkvbNnSgWFSZLGVIK_OT
+
 **Single Axis Solar Panel Tracking System**
 An intelligent solar tracking system that automatically follows the sun's movement throughout the day to maximize solar panel efficiency using Arduino-based control and light-dependent sensors.
 
