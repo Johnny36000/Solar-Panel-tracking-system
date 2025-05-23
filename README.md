@@ -36,7 +36,7 @@ The tracking system operates on a comparative light sensing algorithm that conti
 
 **Three-State Operation**:
 
-**Sun Position Left (East*):
+*Sun Position Left (East)*:
 
 -LDR1 receives higher light intensity
 
@@ -44,7 +44,7 @@ The tracking system operates on a comparative light sensing algorithm that conti
 
 -System rotates solar panel clockwise toward the light source
 
-**Sun Position Right (West*):
+*Sun Position Right (West)*:
 
 -LDR2 receives higher light intensity
 
@@ -52,7 +52,7 @@ The tracking system operates on a comparative light sensing algorithm that conti
 
 -System rotates solar panel counterclockwise toward the light source
 
-**Sun Position Center*:
+*Sun Position Center*:
 
 -Both LDRs receive equal light intensity
 
