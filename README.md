@@ -10,28 +10,28 @@ This project implements a single-axis solar tracking system designed to optimize
 
 **Key Features**:
 
--Automatic sun tracking from east to west throughout the day
+- Automatic sun tracking from east to west throughout the day
 
--Real-time monitoring with LCD display
+- Real-time monitoring with LCD display
 
--Light-based positioning using dual LDR sensor configuration
+- Light-based positioning using dual LDR sensor configuration
 
--Servo motor actuation for precise panel movement
+- Servo motor actuation for precise panel movement
 
--Microcontroller-based intelligence for autonomous operation
+- Microcontroller-based intelligence for autonomous operation
 
 **System Architecture
 Core Components**:
 
--Arduino Mega 2560 - Main control unit with ATmega328 microcontroller
+- Arduino Mega 2560 - Main control unit with ATmega328 microcontroller
 
--Dual LDR modules - Light intensity sensors for directional detection
+- Dual LDR modules - Light intensity sensors for directional detection
 
--LCD display - Real-time system status and performance monitoring
+- LCD display - Real-time system status and performance monitoring
 
--Servo motor - Panel positioning actuator
+- Servo motor - Panel positioning actuator
 
--Solar panel - Energy harvesting unit
+- Solar panel - Energy harvesting unit
 
 **Working Principle**
 The tracking system operates on a comparative light sensing algorithm that continuously evaluates light intensity from different directions:
@@ -40,25 +40,25 @@ The tracking system operates on a comparative light sensing algorithm that conti
 
 *Sun Position Left (East)*:
 
--LDR1 receives higher light intensity
+- LDR1 receives higher light intensity
 
--LDR2 is shadowed by the barrier
+- LDR2 is shadowed by the barrier
 
--System rotates solar panel clockwise toward the light source
+- System rotates solar panel clockwise toward the light source
 
 *Sun Position Right (West)*:
 
--LDR2 receives higher light intensity
+- LDR2 receives higher light intensity
 
--LDR1 is shadowed by the barrier
+- LDR1 is shadowed by the barrier
 
--System rotates solar panel counterclockwise toward the light source
+- System rotates solar panel counterclockwise toward the light source
 
 *Sun Position Center*:
 
--Both LDRs receive equal light intensity
+- Both LDRs receive equal light intensity
 
--Panel remains stationary in optimal position
+- Panel remains stationary in optimal position
 
 **Design Implementation
 Sensor Configuration**:
@@ -73,56 +73,56 @@ The system uses PWM signals to control servo positioning, with pulse widths dete
 **Performance Benefits
 Energy Efficiency Gains**:
 
--Up to 25% increase in energy generation compared to fixed mounting systems
+- Up to 25% increase in energy generation compared to fixed mounting systems
 
--Continuous optimization throughout daylight hours
+- Continuous optimization throughout daylight hours
 
--Automatic adjustment eliminates manual positioning requirements
+- Automatic adjustment eliminates manual positioning requirements
 
 **System Advantages**:
 
--Cost-effective design using readily available components
+- Cost-effective design using readily available components
 
--Proven single-axis tracking technology suitable for various solar applications
+- Proven single-axis tracking technology suitable for various solar applications
 
--Scalable architecture that can accommodate different panel sizes
+- Scalable architecture that can accommodate different panel sizes
 
--Low maintenance autonomous operation
+- Low maintenance autonomous operation
 
 **Technical Specifications**
--Microcontroller Platform: Arduino Mega 2560
+- Microcontroller Platform: Arduino Mega 2560
 
--54 digital I/O pins (15 PWM capable)
+- 54 digital I/O pins (15 PWM capable)
 
--16 analog input channels
+- 16 analog input channels
 
--ATmega328 processor integration
+- ATmega328 processor integration
 
--Sensor Technology: Light Dependent Resistors (LDR)
+- Sensor Technology: Light Dependent Resistors (LDR)
 
--Cadmium sulfide (CdS) photocells for light sensing
+- Cadmium sulfide (CdS) photocells for light sensing
 
--Resistance inversely proportional to light intensity
+- Resistance inversely proportional to light intensity
 
--Optimized for sunlight detection (approximately 30,000 lux)
+- Optimized for sunlight detection (approximately 30,000 lux)
 
 **Actuation System**: PWM Servo Motor
 
--180° rotation capability
+- 180° rotation capability
 
--Precise angular positioning control
+- Precise angular positioning control
 
--Scalable to accommodate various panel weights
+- Scalable to accommodate various panel weights
 
 **System Integration**
 The complete system integrates hardware and software components to create an intelligent tracking solution. The LCD display provides real-time feedback on system status, light readings, and panel position, enabling monitoring and troubleshooting capabilities.
 
 **Real-time Monitoring Features**:
 
--Current light intensity readings from both sensors
+- Current light intensity readings from both sensors
 
--Servo motor position and movement status
+- Servo motor position and movement status
 
--System operational state and tracking performance
+- System operational state and tracking performance
 
--This single-axis solar tracking system demonstrates effective renewable energy optimization through intelligent automation, providing a practical solution for maximizing solar energy harvesting efficiency in residential and commercial applications.
+- This single-axis solar tracking system demonstrates effective renewable energy optimization through intelligent automation, providing a practical solution for maximizing solar energy harvesting efficiency in residential and commercial applications.
